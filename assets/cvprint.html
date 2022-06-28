@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Mirrored from adminlte.io/themes/v3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Nov 2021 07:15:52 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Azərenerji ASC</title>
+
+        <!-- Google Font: Source Sans Pro -->
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+        <!-- daterange picker -->
+        <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css" />
+        <!-- iCheck for checkboxes and radio inputs -->
+        <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css" />
+        <!-- Bootstrap Color Picker -->
+        <link rel="stylesheet" href="plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" />
+        <!-- Tempusdominus Bootstrap 4 -->
+        <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" />
+        <!-- Select2 -->
+        <link rel="stylesheet" href="plugins/select2/css/select2.min.css" />
+        <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" />
+        <!-- Bootstrap4 Duallistbox -->
+        <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css" />
+        <!-- BS Stepper -->
+        <link rel="stylesheet" href="plugins/bs-stepper/css/bs-stepper.min.css" />
+        <!-- dropzonejs -->
+        <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css" />
+        <!-- Theme style -->
+        <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+		 <!-- DataTables -->
+        <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" />
+        <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css" />
+        <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css" />
+    </head>
+	
+    <body class="hold-transition sidebar-mini layout-fixed">
+        <div class="wrapper">
+            <!-- Preloader -->
+            <div class="preloader flex-column justify-content-center align-items-center">
+                <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60" />
+            </div>
+
+            <!-- Navbar -->
+            <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+                <!-- Left navbar links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                    </li>
+                </ul>
+
+                <!-- Right navbar links -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- Notifications Dropdown Menu -->
+					<li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">İlqar Əzizov</a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-users mr-2"></i>İstifadəçi məlumatları
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-sign-out-alt mr-2"></i>Təhlükəsiz çıxış
+                            </a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                            <i class="fas fa-th-large"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.navbar -->
+
+            <!-- Main Sidebar Container -->
+            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                <!-- Brand Logo -->
+                <a href="index.html" class="brand-link">
+                    <img src="dist/img/AdminLTELogo.png"  class="brand-image " />
+                    <span class="brand-text font-weight-light"><b>AzərEnerji ASC</b></span>
+                </a>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+
+                    <!-- Sidebar Menu -->
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+							<li class="nav-item menu-open">
+                                <a class="nav-link active">
+									<i class="nav-icon fas fa-users"></i>
+                                    <p>
+                                        İnsan Resursları
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="personalinfo.html" class="nav-link active">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Personal məlumatları</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+							<li class="nav-item">
+                                <a class="nav-link">
+									<i class="nav-icon fas fa-users"></i>
+                                    <p>
+                                        İdarə Etmə Paneli
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="controlpanel.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Struktur</p>
+                                        </a>
+                                    </li>
+                                </ul>
+								<ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="positions.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Vəzifələr</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+							
+							
+                            
+							
+							
+							
+                            
+
+                        </ul>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <div class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb float-sm-left">
+                                    <li class="breadcrumb-item"><a href="#">İnsan Resursları</a></li>
+                                    <li class="breadcrumb-item active">CV çapı</li>
+                                </ol>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb float-sm-right">
+									<li class="breadcrumb-item">06 iyun 2022 / 14:40:25</li>
+                                </ol>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+                <!-- /.content-header -->
+
+                <!-- Main content -->
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- /.card -->
+
+                                <div class="card">
+                                    <div class="card-header">
+										<a href="javascript:;" class="btn btn-primary" id="print">Çap et</a>
+                                    </div>
+                                    <!-- /.card-header -->
+									<div class="container">
+										<div class="row">
+											<div class="col-11" style="padding:5px">
+												<table id="myDiv" cellpadding="0" cellspacing="0" border="0">
+													<tbody>
+														<tr style="vertical-align: top;">
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td style="width: 73px;"></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 21px;"></td>
+															<td class="cs69B24154" style="width: 2px; height: 20px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csFBADD0D5" colspan="2" style="width: 195px; height: 20px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csFBADD0D5" colspan="4" style="width: 403px; height: 20px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csFBADD0D5" style="width: 127px; height: 20px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="cs2A5D054" style="width: 1px; height: 20px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 4px;"></td>
+															<td class="cs98E957F5" style="width: 2px; height: 4px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csB44838C" colspan="2" rowspan="3" style="width: 193px; height: 151px; line-height: 164px; text-align: left; vertical-align: top;">
+																<div style="overflow: hidden; width: 191px; height: 152px;">
+																	<div style="width: 191px; height: 164px; overflow: hidden; display: table;">
+																		<div style="vertical-align: top; display: table-cell;">
+																			<nobr>CV</nobr>
+																		</div>
+																	</div>
+																</div>
+															</td>
+															<td class="cs84F28094" colspan="4" style="width: 403px; height: 4px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="cs84F28094" style="width: 127px; height: 4px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csCDAD2B35" style="width: 1px; height: 4px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 130px;"></td>
+															<td class="cs98E957F5" style="width: 2px; height: 130px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="cs84F28094" colspan="4" style="width: 403px; height: 130px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csDEC10AE5" style="width: 126px; height: 128px; text-align: left; vertical-align: top;">
+																<div style="overflow: hidden; width: 126px; height: 128px;">
+																	<img alt="" src="dist/img/ilqar.jpg" style="width: 126px; height: 128px;"/>
+																</div>
+															</td>
+															<td class="csCDAD2B35" style="width: 1px; height: 130px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 17px;"></td>
+															<td class="cs98E957F5" style="width: 2px; height: 17px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="cs84F28094" colspan="4" style="width: 403px; height: 17px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="cs84F28094" style="width: 127px; height: 17px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csCDAD2B35" style="width: 1px; height: 17px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 23px;"></td>
+															<td class="csF0375D66" style="width: 2px; height: 22px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csD13803A5" colspan="2" style="width: 195px; height: 22px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csD13803A5" colspan="4" style="width: 403px; height: 22px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="csD13803A5" style="width: 127px; height: 22px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td class="cs3AFE7126" style="width: 1px; height: 22px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 1px;"></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="csA2DBBA6A" colspan="9" style="width: 728px; height: 28px; line-height: 23px; text-align: center; vertical-align: middle;"><nobr>ŞƏXSİ&nbsp;&nbsp;MƏLUMATLAR</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 28px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 27px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Soyadı</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 27px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Əzizov</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Adı</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>İlqar</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Atasının&nbsp;adı</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Məlik</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Doğulduğu&nbsp;tarix</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>23/02/1992</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Doğulduğu&nbsp;yer&nbsp;(şəhər,&nbsp;kənd)</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 28px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 28px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 27px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Ailə&nbsp;vəziyyəti</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 27px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Subay</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Partiyalılığı</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Bitərəf</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Hərbi&nbsp;mükəlləfiyəti</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Hərbi&nbsp;Mükəlləf</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 40px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 39px; line-height: 18px; text-align: left; vertical-align: top;">
+																<nobr>Təhsil&nbsp;müəssisəsi&nbsp;və&nbsp;ixtisası&nbsp;(bakalavr,magistr,</nobr><br />
+																<nobr>peşə&nbsp;məktəbi&nbsp;və&nbsp;s.)</nobr>
+															</td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 39px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>&nbsp;/&nbsp;&nbsp;(&nbsp;Orta&nbsp;),</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 53px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 52px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Dil&nbsp;bilikləri&nbsp;və&nbsp;onların&nbsp;səviyyəsi</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 52px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 48px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 47px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Kompüter&nbsp;bilikləri</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 47px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 24px;"></td>
+															<td class="csFB573002" colspan="9" style="width: 728px; height: 23px; line-height: 22px; text-align: center; vertical-align: middle;"><nobr>ƏLAQƏ</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 39px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 38px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Yaşadığı&nbsp;və&nbsp;qeydiyyat&nbsp;ünvanı</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 38px; line-height: 18px; text-align: left; vertical-align: middle;">
+																<nobr>Yeni&nbsp;Günəşli,&nbsp;Samir&nbsp;Cəfərov&nbsp;küç.,&nbsp;ev&nbsp;9A,&nbsp;mən.52,</nobr>
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 33px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 32px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Ev&nbsp;telefonu</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 32px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 34px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 33px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Mobil&nbsp;telefon</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 33px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>055&nbsp;522-23-55</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 33px;"></td>
+															<td class="cs46164692" colspan="4" style="width: 362px; height: 32px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>E-mail</nobr></td>
+															<td class="cs304D300D" colspan="5" style="width: 361px; height: 32px;">
+																<!--[if lte IE 7]><div class="cs761F1CA4"></div><![endif]-->
+															</td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="csFB573002" colspan="9" style="width: 728px; height: 28px; line-height: 22px; text-align: center; vertical-align: middle;"><nobr>ƏMƏK&nbsp;&nbsp;FƏALİYYƏTİ&nbsp;(əmək&nbsp;kitabçasına&nbsp;uyğun)</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 48px;"></td>
+															<td class="cs48B04E6B" colspan="2" style="width: 190px; height: 47px; line-height: 22px; text-align: center; vertical-align: middle;"><nobr>İşlədiyi&nbsp;müddət</nobr></td>
+															<td class="cs5B80BD0E" colspan="3" style="width: 335px; height: 47px; line-height: 22px; text-align: center; vertical-align: middle;"><nobr>Təşkilatın&nbsp;adı</nobr></td>
+															<td class="cs5B80BD0E" colspan="4" style="width: 201px; height: 47px; line-height: 22px; text-align: center; vertical-align: middle;"><nobr>Vəzifəsi</nobr></td>
+															<td></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs9EA21BDE" colspan="2" style="width: 190px; height: 28px; line-height: 18px; text-align: center; vertical-align: middle;"><nobr>01/08/2012&nbsp;-&nbsp;28/12/2012</nobr></td>
+															<td class="cs3E73F864" colspan="4" style="width: 332px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>"AVROMED&nbsp;COMPANİ"&nbsp;MMC</nobr></td>
+															<td class="cs3E73F864" colspan="4" style="width: 197px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>anbar&nbsp;işçisi</nobr></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 29px;"></td>
+															<td class="cs9EA21BDE" colspan="2" style="width: 190px; height: 28px; line-height: 18px; text-align: center; vertical-align: middle;"><nobr>01/04/2014&nbsp;-&nbsp;31/07/2014</nobr></td>
+															<td class="cs3E73F864" colspan="4" style="width: 332px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>"Media&nbsp;Dizayn"&nbsp;MMC</nobr></td>
+															<td class="cs3E73F864" colspan="4" style="width: 197px; height: 28px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>proqramçı&nbsp;köməkçisi</nobr></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 40px;"></td>
+															<td class="cs9EA21BDE" colspan="2" style="width: 190px; height: 39px; line-height: 18px; text-align: center; vertical-align: middle;"><nobr>22/04/2019</nobr></td>
+															<td class="cs3E73F864" colspan="4" style="width: 332px; height: 39px; line-height: 18px; text-align: left; vertical-align: middle;">
+																<nobr>"Azərenerji"&nbsp;Açıq&nbsp;Səhmdar&nbsp;Cəmiyyəti&nbsp;,</nobr><br />
+																<nobr>Rəqəmsal&nbsp;Texnologiyalar&nbsp;Departamenti</nobr>
+															</td>
+															<td class="cs3E73F864" colspan="4" style="width: 197px; height: 39px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Aparıcı&nbsp;veb&nbsp;proqramçı</nobr></td>
+														</tr>
+														<tr style="vertical-align: top;">
+															<td style="height: 40px;"></td>
+															<td class="cs9EA21BDE" colspan="2" style="width: 190px; height: 39px; line-height: 18px; text-align: center; vertical-align: middle;"><nobr>05/01/2022</nobr></td>
+															<td class="cs3E73F864" colspan="4" style="width: 332px; height: 39px; line-height: 18px; text-align: left; vertical-align: middle;">
+																<nobr>"Azərenerji"&nbsp;Açıq&nbsp;Səhmdar&nbsp;Cəmiyyəti&nbsp;,</nobr><br />
+																<nobr>Rəqəmsal&nbsp;Texnologiyalar&nbsp;Departamenti</nobr>
+															</td>
+															<td class="cs3E73F864" colspan="4" style="width: 197px; height: 39px; line-height: 18px; text-align: left; vertical-align: middle;"><nobr>Aparıcı&nbsp;veb&nbsp;proqramçı</nobr></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <strong>Copyright &copy; 2022 <a href="">AzərEnerji ASC</a>
+            </footer>
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
+        </div>
+        <!-- ./wrapper -->
+		
+		<script src="plugins/jquery/jquery.min.js"></script>
+        <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="plugins/select2/js/select2.full.min.js"></script>
+        <script src="plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+        <script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+        <script src="plugins/jszip/jszip.min.js"></script>
+        <script src="plugins/pdfmake/pdfmake.min.js"></script>
+        <script src="plugins/pdfmake/vfs_fonts.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+        <script src="dist/js/adminlte.min.js"></script>
+        <script src="dist/js/demo.js"></script>
+		
+		<script>
+			$(document).ready(function()
+			{
+			
+				$("#check_all").click(function()				
+				{
+					var checked_status = this.checked;
+					$("input[name=regis]").each(function()
+					{
+						this.checked = checked_status;
+					});
+				});					
+			});
+		
+		
+		</script>
+        <script>
+            $(function () {
+                //Initialize Select2 Elements
+                $(".select2").select2();
+
+                //Initialize Select2 Elements
+                $(".select2bs4").select2({
+                    theme: "bootstrap4",
+                });
+
+                //Datemask dd/mm/yyyy
+                $("#datemask").inputmask("dd/mm/yyyy", { placeholder: "dd/mm/yyyy" });
+                //Datemask2 mm/dd/yyyy
+                $("#datemask2").inputmask("mm/dd/yyyy", { placeholder: "mm/dd/yyyy" });
+                //Money Euro
+                $("[data-mask]").inputmask();
+
+                //Date picker
+                $("#reservationdate").datetimepicker({
+                    format: "L",
+                });
+
+                //Date and time picker
+                $("#reservationdatetime").datetimepicker({ icons: { time: "far fa-clock" } });
+
+                //Date range picker
+                $("#reservation").daterangepicker();
+                //Date range picker with time picker
+                $("#reservationtime").daterangepicker({
+                    timePicker: true,
+                    timePickerIncrement: 30,
+                    locale: {
+                        format: "MM/DD/YYYY hh:mm A",
+                    },
+                });
+                //Date range as a button
+                $("#daterange-btn").daterangepicker(
+                    {
+                        ranges: {
+                            Today: [moment(), moment()],
+                            Yesterday: [moment().subtract(1, "days"), moment().subtract(1, "days")],
+                            "Last 7 Days": [moment().subtract(6, "days"), moment()],
+                            "Last 30 Days": [moment().subtract(29, "days"), moment()],
+                            "This Month": [moment().startOf("month"), moment().endOf("month")],
+                            "Last Month": [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")],
+                        },
+                        startDate: moment().subtract(29, "days"),
+                        endDate: moment(),
+                    },
+                    function (start, end) {
+                        $("#reportrange span").html(start.format("MMMM D, YYYY") + " - " + end.format("MMMM D, YYYY"));
+                    }
+                );
+
+                //Timepicker
+                $("#timepicker").datetimepicker({
+                    format: "LT",
+                });
+
+                //Bootstrap Duallistbox
+                $(".duallistbox").bootstrapDualListbox();
+
+                //Colorpicker
+                $(".my-colorpicker1").colorpicker();
+                //color picker with addon
+                $(".my-colorpicker2").colorpicker();
+
+                $(".my-colorpicker2").on("colorpickerChange", function (event) {
+                    $(".my-colorpicker2 .fa-square").css("color", event.color.toString());
+                });
+
+                $("input[data-bootstrap-switch]").each(function () {
+                    $(this).bootstrapSwitch("state", $(this).prop("checked"));
+                });
+            });
+            // BS-Stepper Init
+            document.addEventListener("DOMContentLoaded", function () {
+                window.stepper = new Stepper(document.querySelector(".bs-stepper"));
+            });
+
+            // DropzoneJS Demo Code Start
+            Dropzone.autoDiscover = false;
+
+            // Get the template HTML and remove it from the doumenthe template HTML and remove it from the doument
+            var previewNode = document.querySelector("#template");
+            previewNode.id = "";
+            var previewTemplate = previewNode.parentNode.innerHTML;
+            previewNode.parentNode.removeChild(previewNode);
+
+            var myDropzone = new Dropzone(document.body, {
+                // Make the whole body a dropzone
+                url: "/target-url", // Set the url
+                thumbnailWidth: 80,
+                thumbnailHeight: 80,
+                parallelUploads: 20,
+                previewTemplate: previewTemplate,
+                autoQueue: false, // Make sure the files aren't queued until manually added
+                previewsContainer: "#previews", // Define the container to display the previews
+                clickable: ".fileinput-button", // Define the element that should be used as click trigger to select files.
+            });
+
+            myDropzone.on("addedfile", function (file) {
+                // Hookup the start button
+                file.previewElement.querySelector(".start").onclick = function () {
+                    myDropzone.enqueueFile(file);
+                };
+            });
+
+            // Update the total progress bar
+            myDropzone.on("totaluploadprogress", function (progress) {
+                document.querySelector("#total-progress .progress-bar").style.width = progress + "%";
+            });
+
+            myDropzone.on("sending", function (file) {
+                // Show the total progress bar when upload starts
+                document.querySelector("#total-progress").style.opacity = "1";
+                // And disable the start button
+                file.previewElement.querySelector(".start").setAttribute("disabled", "disabled");
+            });
+
+            // Hide the total progress bar when nothing's uploading anymore
+            myDropzone.on("queuecomplete", function (progress) {
+                document.querySelector("#total-progress").style.opacity = "0";
+            });
+
+            // Setup the buttons for all transfers
+            // The "add files" button doesn't need to be setup because the config
+            // `clickable` has already been specified.
+            document.querySelector("#actions .start").onclick = function () {
+                myDropzone.enqueueFiles(myDropzone.getFilesWithStatus(Dropzone.ADDED));
+            };
+            document.querySelector("#actions .cancel").onclick = function () {
+                myDropzone.removeAllFiles(true);
+            };
+            // DropzoneJS Demo Code End
+        </script>
+		<script>
+            // DataTables with Column Search by Text Inputs
+            document.addEventListener("DOMContentLoaded", function () {
+                // Setup - add a text input to each footer cell
+                $("#datatables-column-search-text-inputs tfoot th").each(function () {
+                    var title = $(this).text();
+                    $(this).html('<input type="text" class="form-control" placeholder="' + title + ' axtar" />');
+                });
+                // DataTables
+                var table = $("#datatables-column-search-text-inputs").DataTable();
+                // Apply the search
+                table.columns().every(function () {
+                    var that = this;
+                    $("input", this.footer()).on("keyup change clear", function () {
+                        if (that.search() !== this.value) {
+                            that.search(this.value).draw();
+                        }
+                    });
+                });
+            });
+            // DataTables with Column Search by Select Inputs
+
+			function nWin() {
+			  var w = window.print();
+			  var html = $("#myDiv").html();
+
+				$(w.document.body).html(html);
+				w.print();
+			}
+
+			$(function() {
+				$("a#print").click(nWin);
+			});
+		</script>
+    </body>
+</html>

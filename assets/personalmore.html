@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Mirrored from adminlte.io/themes/v3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Nov 2021 07:15:52 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Azərenerji ASC</title>
+
+        <!-- Google Font: Source Sans Pro -->
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+        <!-- daterange picker -->
+        <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css" />
+        <!-- iCheck for checkboxes and radio inputs -->
+        <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css" />
+        <!-- Bootstrap Color Picker -->
+        <link rel="stylesheet" href="plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" />
+        <!-- Tempusdominus Bootstrap 4 -->
+        <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" />
+        <!-- Select2 -->
+        <link rel="stylesheet" href="plugins/select2/css/select2.min.css" />
+        <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" />
+        <!-- Bootstrap4 Duallistbox -->
+        <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css" />
+        <!-- BS Stepper -->
+        <link rel="stylesheet" href="plugins/bs-stepper/css/bs-stepper.min.css" />
+        <!-- dropzonejs -->
+        <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css" />
+        <!-- Theme style -->
+        <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+		 <!-- DataTables -->
+        <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" />
+        <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css" />
+        <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css" />
+    </head>
+	
+    <body class="hold-transition sidebar-mini layout-fixed">
+        <div class="wrapper">
+            <!-- Preloader -->
+            <div class="preloader flex-column justify-content-center align-items-center">
+                <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60" />
+            </div>
+
+            <!-- Navbar -->
+            <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+                <!-- Left navbar links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                    </li>
+                </ul>
+
+                <!-- Right navbar links -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- Notifications Dropdown Menu -->
+					<li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">İlqar Əzizov</a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-users mr-2"></i>İstifadəçi məlumatları
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-sign-out-alt mr-2"></i>Təhlükəsiz çıxış
+                            </a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                            <i class="fas fa-th-large"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.navbar -->
+
+            <!-- Main Sidebar Container -->
+            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                <!-- Brand Logo -->
+                <a href="index.html" class="brand-link">
+                    <img src="dist/img/AdminLTELogo.png"  class="brand-image " />
+                    <span class="brand-text font-weight-light"><b>AzərEnerji ASC</b></span>
+                </a>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+
+                    <!-- Sidebar Menu -->
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+							<li class="nav-item menu-open">
+                                <a class="nav-link active">
+									<i class="nav-icon fas fa-users"></i>
+                                    <p>
+                                        İnsan Resursları
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="personalinfo.html" class="nav-link active">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Personal məlumatları</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+							<li class="nav-item">
+                                <a class="nav-link">
+									<i class="nav-icon fas fa-users"></i>
+                                    <p>
+                                        İdarə Etmə Paneli
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="controlpanel.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Struktur</p>
+                                        </a>
+                                    </li>
+                                </ul>
+								<ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="positions.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Vəzifələr</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+							
+							
+                            
+							
+							
+							
+                            
+
+                        </ul>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <div class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb float-sm-left">
+                                    <li class="breadcrumb-item"><a href="#">İnsan Resursları</a></li>
+                                    <li class="breadcrumb-item">Personal məlumatları</li>
+                                </ol>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb float-sm-right">
+									<li class="breadcrumb-item">06 iyun 2022 / 14:40:25</li>
+                                </ol>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+                <!-- /.content-header -->
+
+                <!-- Main content -->
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- /.card -->
+
+                                <div class="card">
+                                    <div class="card-header">
+										
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body" id="myDiv">
+                                        <div class="col-12 col-sm-12">
+											<div class="card card-primary card-outline card-outline-tabs">
+												<div class="card-header p-0 border-bottom-0">
+													<ul class="nav nav-tabs" id="custom-tabs-four-tab" role="tablist">
+														<li class="nav-item">
+															<a class="nav-link active" id="custom-general-information-tab" data-toggle="pill" href="#custom-tabs-four-general-information" role="tab" aria-controls="custom-tabs-four-general-information" aria-selected="true">Ümumi Məlumatlar</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" id="custom-staff-information-tab" data-toggle="pill" href="#custom-tabs-four-staff-information" role="tab" aria-controls="custom-tabs-four-staff-information" aria-selected="true">Ştat məlumatları</a></a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" id="custom-family-composition-tab" data-toggle="pill" href="#custom-tabs-four-family-composition" role="tab" aria-controls="custom-family-composition" aria-selected="false">Qohumluq</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" id="custom-tabs-four-education-tab" data-toggle="pill" href="#custom-tabs-four-education" role="tab" aria-controls="custom-tabs-four-education" aria-selected="false">
+																Təhsil
+															</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" id="custom-tabs-four-labor-activity-tab" data-toggle="pill" href="#custom-tabs-four-labor-activity" role="tab" aria-controls="custom-tabs-four-labor-activity" aria-selected="false">
+																Əmək fəaliyyəti
+															</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" id="custom-tabs-four-documents-tab" data-toggle="pill" href="#custom-tabs-four-documents" role="tab" aria-controls="custom-tabs-four-documents" aria-selected="false">
+																Sənədlər
+															</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" id="custom-tabs-four-reward-reprimand-tab" data-toggle="pill" href="#custom-tabs-four-reward-reprimand" role="tab" aria-controls="custom-tabs-four-reward-reprimand" aria-selected="false">
+																Mükafat və Tənbeh
+															</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" id="custom-tabs-four-military-service-tab" data-toggle="pill" href="#custom-tabs-four-military-service" role="tab" aria-controls="custom-tabs-four-military-service" aria-selected="false">
+																Hərbi xidmət məlumatları
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="card-body">
+													<div class="tab-content" id="custom-tabs-four-tabContent">
+														<div class="tab-pane fade show active" id="custom-tabs-four-general-information" role="tabpanel" aria-labelledby="custom-tabs-four-general-information">
+															<div class="container-fluid">
+																<div class="row">
+																	<div class="col-md-4">
+																		<!-- Profile Image -->
+																		<div class="card card-primary card-outline">
+																			<div class="card-body box-profile">
+																				<div class="text-center">
+																					<img class="profile-user-img img-fluid img-circle" src="dist/img/ilqar.jpg" alt="User profile picture" />
+																				</div>
+																				<hr />
+																				<ul class="list-group list-group-unbordered mb-3">
+																					<li class="list-group-item">
+																						<b>Ad</b><a class="float-right">İlqar</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Soyad</b> <a class="float-right">Əzizov</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Ata adı</b> <a class="float-right">Məlik</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Təvəllüd</b> <a class="float-right">23.Fevral.2022</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Doğulduğu yer</b><a class="float-right">Bakı şəhəri, Suraxanı rayonu</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Təhsilin tipi</b><a class="float-right">Orta</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Ailə vəziyyəti</b><a class="float-right">Evli</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Yaşadığı yer</b>
+																						<a class="float-right">Bakı şəhəri, Suraxanı rayonu, S/Cəfərov 9A,M52</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Cinsi</b>
+																						<a class="float-right">Kişi</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Şəxsiyyət vəsiqəsi Seriyası №</b>
+																						<a class="float-right">AA110317</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Şəxsiyyət vəsiqəsi Verildiyi Orqan</b>
+																						<a class="float-right">Suraxanı RPİ</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Şəxsiyyət vəsiqəsi FİN Kodu</b>
+																						<a class="float-right">57V5NLS</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Şəxsiyyət vəsiqəsi Verilmə Tarixi</b>
+																						<a class="float-right">12.02.2019</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Şəxsiyyət vəsiqəsi Etibarlılıq Tarixi</b>
+																						<a class="float-right">13.02.2029</a>
+																					</li>
+																				</ul>
+																			</div>
+																			<!-- /.card-body -->
+																		</div>
+																	</div>
+																	<!-- /.col -->
+																	<div class="col-md-8">
+																		<div class="card">
+																			<!-- /.card-header -->
+																			<div class="card-body">
+																				<div class="form-group row mb-3">
+																					<label for="customFile" class="col-sm-4 col-form-label">Şəkil seç</label>
+																					<div class="col-sm-8">
+																						<input type="file" class="form-control" id="customFile" disabled>
+																						<label class="custom-file-label" for="customFile">Şəkil seçin</label>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Ad</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="inputName" placeholder="Ad" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputSurname" class="col-sm-4 col-form-label">Soyad</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="inputSurname" placeholder="Soyad" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Ata adı</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="inputFname" placeholder="Ata adı" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Təvəllüd</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="reservationdate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" disabled />
+																							<div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="PlaceBirth" class="col-sm-4 col-form-label">Doğulduğu yer</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="PlaceBirth" placeholder="Doğulduğu yer" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="typeEducation" class="col-sm-4 col-form-label">Təhsilin tipi</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="typeEducation" placeholder="Təhsilin tipi" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="maritalStatus" class="col-sm-4 col-form-label">Ailə vəziyyəti</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="maritalStatus" placeholder="Ailə vəziyyəti" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="livingPlace" class="col-sm-4 col-form-label">Yaşadığı yer</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="livingPlace" placeholder="Yaşadığı yer" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">Cinsi</label>
+																					<div class="col-sm-8">
+																						<div class="form-group clearfix">
+																							<div class="icheck-primary d-inline mr-4">
+																								<input type="radio" id="radioPrimary1" name="r1" checked disabled />
+																								<label for="radioPrimary1">Kişi</label>
+																							</div>
+																							<div class="icheck-primary d-inline">
+																								<input type="radio" id="radioPrimary2" name="r1" disabled />
+																								<label for="radioPrimary2">Qadın</label>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="cartSerailn" class="col-sm-4 col-form-label">Şəxsiyyət vəsiqəsi Seriyası №</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="cartSerailn" placeholder="Yaşadığı yer" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="cartOrgan" class="col-sm-4 col-form-label">Şəxsiyyət vəsiqəsi Verildiyi Orqan</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="cartOrgan" placeholder="Şəxsiyyət vəsiqəsi Verildiyi Orqan" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="cartFin" class="col-sm-4 col-form-label">Şəxsiyyət vəsiqəsi FİN Kodu</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="cartFin" placeholder="Şəxsiyyət vəsiqəsi FİN Kodu" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">Şəxsiyyət vəsiqəsi Verilmə Tarixi</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="cardstartdate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#cardstartdate" disabled />
+																							<div class="input-group-append" data-target="#cardstartdate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">Şəxsiyyət vəsiqəsi Etibarlılıq Tarixi</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="cardenddate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#cardenddate" disabled />
+																							<div class="input-group-append" data-target="#cardenddate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				
+																			</div>
+																			<!-- /.card-body -->
+																		</div>
+																		<!-- /.card -->
+																	</div>
+																	<!-- /.col -->
+																</div>
+																<!-- /.row -->
+															</div>
+														</div>
+														<div class="tab-pane fade show" id="custom-tabs-four-staff-information" role="tabpanel" aria-labelledby="custom-tabs-four-staff-information">
+															<div class="container-fluid">
+																<div class="row">
+																	<div class="col-md-4">
+																		<!-- Profile Image -->
+																		<div class="card card-primary card-outline">
+																			<div class="card-body box-profile">
+																				<ul class="list-group list-group-unbordered mb-3">
+																					<li class="list-group-item">
+																						<b>Təşkilatın Adı</b><a class="float-right">"Azərenerji" Açıq Səhmdar Cəmiyyəti</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Struktur Bölmə</b> <a class="float-right">Rəqəmsal Texnologiyalar Departamenti</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Şöbə/Sektor</b> <a class="float-right">İnformasiya Texnologiyaları şöbəsi</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Vəzifəsi</b> <a class="float-right">Aparıcı veb proqramçı</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>İxtisas dərəcəsi</b><a class="float-right">12-ci dərəcə</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Əmək Müqaviləsi</b><a class="float-right">Müddətli</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>İş Yeri</b><a class="float-right">İdarə aparatı</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>İş Şəraiti</b>
+																						<a class="float-right">Adi</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Əmək müqaviləsinin bağlanma tarixi</b>
+																						<a class="float-right">22.04.2019</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Əmək Müqaviləsinin bitmə tarixi</b>
+																						<a class="float-right">22.01.2020</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>İşə Qəbul Tarixi</b>
+																						<a class="float-right">22.04.2019</a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>İşdən Azad Tarixi</b>
+																						<a class="float-right"></a>
+																					</li>
+																					<li class="list-group-item">
+																						<b>Aylıq Məbləğ</b>
+																						<a class="float-right">920,00</a>
+																					</li>
+																				</ul>
+																			</div>
+																			<!-- /.card-body -->
+																		</div>
+																	</div>
+																	<!-- /.col -->
+																	<div class="col-md-8">
+																		<div class="card">
+																			<!-- /.card-header -->
+																			<div class="card-body">
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Təşkilatın Adı</label>
+																					<div class="col-sm-8">
+																						<select class="form-control select2" style="width: 100%;" disabled>
+																							<option selected="selected">Təşkilatın Adı</option>
+																						</select>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputSurname" class="col-sm-4 col-form-label">Struktur Bölmə</label>
+																					<div class="col-sm-8">
+																						<select class="form-control select2" style="width: 100%;" disabled>
+																							<option selected="selected">Struktur Bölmə</option>
+																						</select>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Şöbə/Sektor</label>
+																					<div class="col-sm-8">
+																						<select class="form-control select2" style="width: 100%;" disabled>
+																							<option selected="selected">Şöbə/Sektor</option>
+																						</select>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Vəzifəsi</label>
+																					<div class="col-sm-8">
+																						<select class="form-control select2" style="width: 100%;" disabled>
+																							<option selected="selected">ŞVəzifəsi</option>
+																						</select>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="PlaceBirth" class="col-sm-4 col-form-label">İxtisas dərəcəsi</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="PlaceBirth" placeholder="İxtisas dərəcəsi" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="typeEducation" class="col-sm-4 col-form-label">Əmək Müqaviləsi</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="typeEducation" placeholder="Əmək Müqaviləsi" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="maritalStatus" class="col-sm-4 col-form-label">İş Yeri</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="maritalStatus" placeholder="İş Yeri" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="livingPlace" class="col-sm-4 col-form-label">İş Şəraiti</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="livingPlace" placeholder="İş Şəraiti" disabled />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">Əmək müqaviləsinin bağlanma tarixi</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="employmentdate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#employmentdate" disabled />
+																							<div class="input-group-append" data-target="#employmentdate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">Əmək Müqaviləsinin bitmə tarixi</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="expirationtdate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#expirationtdate" disabled />
+																							<div class="input-group-append" data-target="#expirationtdate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">İşə Qəbul Tarixi</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="recruitmentdate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#recruitmentdate" disabled />
+																							<div class="input-group-append" data-target="#recruitmentdate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">İşdən Azad Tarixi</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="dismissaldate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#dismissaldate" disabled />
+																							<div class="input-group-append" data-target="#dismissaldate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="livingPlace" class="col-sm-4 col-form-label">Aylıq Məbləğ</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="livingPlace" placeholder="Aylıq Məbləğ" disabled />
+																					</div>
+																				</div>
+																			</div>
+																			<!-- /.card-body -->
+																		</div>
+																		<!-- /.card -->
+																	</div>
+																	<!-- /.col -->
+																</div>
+																<!-- /.row -->
+															</div>
+														</div>
+														<div class="tab-pane fade" id="custom-tabs-four-family-composition" role="tabpanel" aria-labelledby="custom-tabs-four-profile-tab">
+															<div class="container-fluid">
+																<div class="row">
+																	<div class="col-md-5">
+																		<table class="table">
+																			<thead>
+																				<tr>
+																					<th>Qohumluq Növü</th>
+																					<th>Adı, Soyadı və Atasının adı</th>
+																					<th></th>
+																				</tr>
+																			</thead>
+																			<tbody>
+																				<tr>
+																					<td>ata</td>
+																					<td>Məlik Əziziov Mövlud</td>
+																					<td class="text-right py-0 align-middle">
+																						<div class="btn-group btn-group-sm">
+																							<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-lg"><i class="fas fa-eye"></i></button>
+																							<a href="#" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+																							<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																						</div>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>qardaş</td>
+																					<td>Vüqar Əzizov Məlik</td>
+																					<td class="text-right py-0 align-middle">
+																						<div class="btn-group btn-group-sm">
+																							<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-lg"><i class="fas fa-eye"></i></button>
+																							<a href="#" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+																							<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																						</div>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>qızı</td>
+																					<td>Sara Əzizli İlqar</td>
+																					<td class="text-right py-0 align-middle">
+																						<div class="btn-group btn-group-sm">
+																							<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-lg"><i class="fas fa-eye"></i></button>
+																							<a href="#" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+																							<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																						</div>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>həyat yoldaşı</td>
+																					<td>Nigar Əzizova Teymur</td>
+																					<td class="text-right py-0 align-middle">
+																						<div class="btn-group btn-group-sm">
+																							<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-lg"><i class="fas fa-eye"></i></button>
+																							<a href="#" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+																							<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																						</div>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		<div class="modal fade" id="modal-lg">
+																			<div class="modal-dialog modal-lg">
+																				<div class="modal-content">
+																					<div class="modal-header">
+																						<h4 class="modal-title">Qohumluq</h4>
+																						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																							<span aria-hidden="true">&times;</span>
+																						</button>
+																					</div>
+																					<div class="card-body box-profile">
+																						<ul class="list-group list-group-unbordered mb-3">
+																							<li class="list-group-item">
+																								<b>Ad</b><a class="float-right">Məlik</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>Soyad</b> <a class="float-right">Əzizov</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>Cinsi</b>
+																								<a class="float-right">Kişi</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>Təvəllüd</b> <a class="float-right">04.Dekabr.1954</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>Doğulduğu yer</b><a class="float-right">Şəki şəhəri</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>Ata adı</b> <a class="float-right">Mövlud</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>Ana adı</b> <a class="float-right">Zahidə</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>İşlədiyi təşkilatın adı</b><a class="float-right">Ozəl</a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>İşlədiyi vəzifə</b><a class="float-right"></a>
+																							</li>
+																							<li class="list-group-item">
+																								<b>Yaşadığı ünvan</b><a class="float-right">Bakı şəhəri, Suraxanı rayonu, S/Cəfərov 9A,M52</a>
+																							</li>
+																						</ul>
+																					</div>
+																					<!-- /.card-body -->
+																				</div>
+																				<!-- /.modal-content -->
+																			</div>
+																			<!-- /.modal-dialog -->
+																		</div>
+																		<!-- /.modal -->
+																	</div>
+																	<div class="col-md-7">
+																		<div class="card">
+																			<!-- /.card-header -->
+																			<div class="card-body">
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Ad</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="inputName" placeholder="Ad" />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputSurname" class="col-sm-4 col-form-label">Soyad</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="inputSurname" placeholder="Soyad" />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label class="col-sm-4 col-form-label">Cinsi</label>
+																					<div class="col-sm-8">
+																						<div class="form-group clearfix">
+																							<div class="icheck-primary d-inline mr-4">
+																								<input type="radio" id="radioPrimary3" name="r1" checked />
+																								<label for="radioPrimary3">Kişi</label>
+																							</div>
+																							<div class="icheck-primary d-inline">
+																								<input type="radio" id="radioPrimary4" name="r1" />
+																								<label for="radioPrimary4">Qadın</label>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Təvəllüd</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="reservationdate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
+																							<div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="PlaceBirth" class="col-sm-4 col-form-label">Doğulduğu yer</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="PlaceBirth" placeholder="Doğulduğu yer" />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Ata adı</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="inputFname" placeholder="Ata adı" />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Ana adı</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="inputFname" placeholder="Ata adı" />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="typeEducation" class="col-sm-4 col-form-label">İşlədiyi təşkilatın adı</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="typeEducation" placeholder="İşlədiyi təşkilatın adı" />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="maritalStatus" class="col-sm-4 col-form-label">İşlədiyi vəzifə</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="maritalStatus" placeholder="İşlədiyi vəzifə" />
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="livingPlace" class="col-sm-4 col-form-label">Yaşadığı ünvan</label>
+																					<div class="col-sm-8">
+																						<input type="text" class="form-control" id="livingPlace" placeholder="Yaşadığı ünvan" />
+																					</div>
+																				</div>
+																			</div>
+																			<!-- /.card-body -->
+																		</div>
+																		<!-- /.card -->
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="tab-pane fade" id="custom-tabs-four-education" role="tabpanel" aria-labelledby="custom-tabs-four-education-tab">
+															<div class="container-fluid">
+																<div class="row">
+																	<div class="col-md-5">
+																		<table class="table">
+																			<thead>
+																				<tr>
+																					<th>Təhsil Növü</th>
+																					<th></th>
+																				</tr>
+																			</thead>
+																			<tbody>
+																				<tr>
+																					<td>Ali</td>
+																					<td class="text-right py-0 align-middle">
+																						<div class="btn-group btn-group-sm">
+																							<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-lg-too"><i class="fas fa-eye"></i></button>
+																							<a href="#" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+																							<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																							<!-- /.modal -->
+																							<div class="modal fade" id="modal-lg">
+																								<div class="modal-dialog modal-lg">
+																									<div class="modal-content">
+																										<div class="modal-header">
+																											<h4 class="modal-title">Qohumluq</h4>
+																											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																												<span aria-hidden="true">&times;</span>
+																											</button>
+																										</div>
+																										<div class="card-body box-profile">
+																											<ul class="list-group list-group-unbordered mb-3">
+																												<li class="list-group-item">
+																													<b>Ad</b><a class="float-right">Məlik</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Soyad</b> <a class="float-right">Əzizov</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Cinsi</b>
+																													<a class="float-right">Kişi</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Təvəllüd</b> <a class="float-right">04.Dekabr.1954</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Doğulduğu yer</b><a class="float-right">Şəki şəhəri</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Ata adı</b> <a class="float-right">Mövlud</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Ana adı</b> <a class="float-right">Zahidə</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>İşlədiyi təşkilatın adı</b><a class="float-right">Ozəl</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>İşlədiyi vəzifə</b><a class="float-right"></a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Yaşadığı ünvan</b><a class="float-right">Bakı şəhəri, Suraxanı rayonu, S/Cəfərov 9A,M52</a>
+																												</li>
+																											</ul>
+																										</div>
+																										<!-- /.card-body -->
+																									</div>
+																									<!-- /.modal-content -->
+																								</div>
+																								<!-- /.modal-dialog -->
+																							</div>
+																							<div class="modal fade" id="modal-lg-too">
+																								<div class="modal-dialog modal-lg">
+																									<div class="modal-content">
+																										<div class="modal-header">
+																											<h4 class="modal-title">Təhsil</h4>
+																											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																												<span aria-hidden="true">&times;</span>
+																											</button>
+																										</div>
+																										<div class="card-body box-profile">
+																											<ul class="list-group list-group-unbordered mb-3">
+																												<li class="list-group-item">
+																													<b>Təhsil Müəssisəsi</b><a class="float-right">Sumqayıt Dövlət Universiteti</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Fakultəsi</b> <a class="float-right">Kimya</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>İxtisası</b>
+																													<a class="float-right">Kimya</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Təhsil Dili</b> <a class="float-right">Azərbaycan</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Başlama İli</b><a class="float-right">15.09.2005</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Bitirmə İli</b> <a class="float-right">17.06.2009</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Bitirmə Dərəcəsi</b> <a class="float-right">bakalvr /<b style="color:red"> Bitirdi</b></a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Diplomun Seriya Nömrəsi</b><a class="float-right">AZE1563651</a>
+																												</li>
+																												<li class="list-group-item">
+																													<b>Diplomun Nömrəsi</b><a class="float-right">1563651</a>
+																												</li>
+																											</ul>
+																										</div>
+																										<!-- /.card-body -->
+																									</div>
+																									<!-- /.modal-content -->
+																								</div>
+																								<!-- /.modal-dialog -->
+																							</div>
+																							<!-- /.modal -->
+																						</div>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</div>
+																	<div class="col-md-7">
+																		<div class="card">
+																			<!-- /.card-header -->
+																			<div class="card-body">
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Təhsil Müəssisəsi</label>
+																					<div class="col-sm-8">
+																						<div class="form-group">
+																							<select class="form-control select2" style="width: 100%;">
+																								<option selected="selected">Sumqayıt Dövlət Universiteti</option>
+																							</select>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Fakultəsi</label>
+																					<div class="col-sm-8">
+																						<div class="form-group">
+																							<select class="form-control select2" style="width: 100%;">
+																								<option selected="selected">Kimya</option>
+																							</select>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">İxtisası</label>
+																					<div class="col-sm-8">
+																						<div class="form-group">
+																							<select class="form-control select2" style="width: 100%;">
+																								<option selected="selected">Kimya</option>
+																							</select>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Təhsil Dili</label>
+																					<div class="col-sm-8">
+																						<div class="form-group">
+																							<select class="form-control select2" style="width: 100%;">
+																								<option selected="selected">Azərbaycan</option>
+																							</select>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Başlama İli	</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="edustartdate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#edustartdate" value="15.09.2005"/>
+																							<div class="input-group-append" data-target="#edustartdate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputFname" class="col-sm-4 col-form-label">Bitirmə İli</label>
+																					<div class="col-sm-8">
+																						<div class="input-group date" id="eduenddate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#eduenddate" value="17.06.2009"/>
+																							<div class="input-group-append" data-target="#eduenddate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Bitirmə Dərəcəsi</label>
+																					<div class="col-sm-4">
+																						<div class="form-group">
+																							<input type="text" class="form-control" id="inputSurname" placeholder="Bitirmə Dərəcəsi" value="bakalvr"/>
+																						</div>
+																					</div>
+																					<div class="col-sm-4">
+																						<div class="form-group">
+																							<select class="form-control select2" style="width: 100%;">
+																								<option selected="selected">Bitirdi</option>
+																							</select>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Diplomun Seriya Nömrəsi</label>
+																					<div class="col-sm-8">
+																						<div class="form-group">
+																							<input type="text" class="form-control" id="inputSurname" value="AZE1563651" />
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-group row">
+																					<label for="inputName" class="col-sm-4 col-form-label">Diplomun Nömrəsi</label>
+																					<div class="col-sm-8">
+																						<div class="form-group">
+																							<input type="text" class="form-control" id="inputSurname" value="1563651" />
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- /.card-body -->
+																		</div>
+																		<!-- /.card -->
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="tab-pane fade" id="custom-tabs-four-labor-activity" role="tabpanel" aria-labelledby="custom-tabs-four-labor-activity-tab">
+															<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-lg-work">
+																İş yeri əlavə et
+															</button>
+															<table style="margin-top:10px;" id="datatables-column-search-text-inputs" class="table table-bordered table-striped example1">
+																<thead>
+																	<tr>
+																		<th>Təşkilatın adı</th>
+																		<th>Sturuktur</th>
+																		<th>Vəzifə</th>
+																		<th>Qəbul tarixi</th>
+																		<th>İşdən azad tarixi</th>
+																		<th>Çıxma Səbəbi</th>
+																		<th>Stajı il</th>
+																		<th>Stajı ay</th>
+																		<th>Əmək Kitabçası №</th>
+																		<th>Doldurulma Tarixi</th>
+																		<th>İçliyin №</th>
+																		<th></th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Qafqaz Universiteti</td>
+																		<td>İnformasiya hesablama mərkəzi</td>
+																		<td>mühəndis proqramlaşdırıcı</td>
+																		<td>06.11.2012</td>
+																		<td>07.11.2014</td>
+																		<td>davam edir</td>
+																		<td>4</td>
+																		<td>5</td>
+																		<td>5456365</td>
+																		<td>7896545</td>
+																		<td>123456</td>
+																		<td>
+																			<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg-work"><i class="fas fa-edit"></i></a>
+																			<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Qafqaz Universiteti</td>
+																		<td>İnformasiya hesablama mərkəzi</td>
+																		<td>mühəndis proqramlaşdırıcı</td>
+																		<td>06.11.2012</td>
+																		<td>07.11.2014</td>
+																		<td>davam edir</td>
+																		<td>4</td>
+																		<td>5</td>
+																		<td>5456365</td>
+																		<td>7896545</td>
+																		<td>123456</td>
+																		<td>
+																			<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg-work"><i class="fas fa-edit"></i></a>
+																			<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Qafqaz Universiteti</td>
+																		<td>İnformasiya hesablama mərkəzi</td>
+																		<td>mühəndis proqramlaşdırıcı</td>
+																		<td>06.11.2012</td>
+																		<td>07.11.2014</td>
+																		<td>davam edir</td>
+																		<td>4</td>
+																		<td>5</td>
+																		<td>5456365</td>
+																		<td>7896545</td>
+																		<td>123456</td>
+																		<td>
+																			<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg-work"><i class="fas fa-edit"></i></a>
+																			<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<!-- /.modal -->
+															<div class="modal fade" id="modal-lg-work">
+																<div class="modal-dialog modal-lg">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h4 class="modal-title">İş yeri əlavə et</h4>
+																			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																				<span aria-hidden="true">&times;</span>
+																			</button>
+																		</div>
+																		<div class="card card-default">
+																			<div class="card-header">
+																				<h3 class="card-title">Əmək Fəaliyyəti</h3>
+																			</div>
+																			<div class="card-body">
+																				<div class="row">
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="companyname">Təşkilat Adı</label>
+																							<input type="text" class="form-control" id="companyname" placeholder="Təşkilat Adı">
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="structurname">Sturuktur Adı</label>
+																							<input type="text" class="form-control" id="structurname" placeholder="Sturuktur Adı">
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="positionname">Vəzifə Adı</label>
+																							<input type="text" class="form-control" id="positionname" placeholder="Vəzifə Adı">
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label>İşə Qəbul Tarixi</label>
+																							<div class="input-group date" id="recruitmentdateadd" data-target-input="nearest">
+																								<input type="text" class="form-control datetimepicker-input" data-target="#recruitmentdateadd"/>
+																								<div class="input-group-append" data-target="#recruitmentdateadd" data-toggle="datetimepicker">
+																									<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label>İşdən Azad Tarixi</label>
+																							<div class="input-group date" id="dateofdismissal" data-target-input="nearest">
+																								<input type="text" class="form-control datetimepicker-input" data-target="#dateofdismissal"/>
+																								<div class="input-group-append" data-target="#dateofdismissal" data-toggle="datetimepicker">
+																									<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="positionname">İşdən Çıxma Səbəbi</label>
+																							<input type="text" class="form-control" id="positionname" placeholder="İşdən Çıxma Səbəbi">
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="card card-default">
+																			<div class="card-header">
+																				<h3 class="card-title">İş Stajı</h3>
+																			</div>
+																			<div class="card-body">
+																				<div class="row">
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="companyname">İl</label>
+																							<input type="number" class="form-control" id="companyname">
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="structurname">Ay</label>
+																							<input type="number" class="form-control" id="structurname">
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="positionname">Gün</label>
+																							<input type="number" class="form-control" id="positionname">
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="card card-default">
+																			<div class="card-header">
+																				<h3 class="card-title">Əmək Kitabçası</h3>
+																			</div>
+																			<div class="card-body">
+																				<div class="row">
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="companyname">Əmək Kitabçası №</label>
+																							<input type="number" class="form-control" id="companyname">
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="structurname">Doldurulma Tarixi</label>
+																							<div class="input-group date" id="fillingdate" data-target-input="nearest">
+																								<input type="text" class="form-control datetimepicker-input" data-target="#fillingdate"/>
+																								<div class="input-group-append" data-target="#fillingdate" data-toggle="datetimepicker">
+																									<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="col-md-4">
+																						<div class="form-group">
+																							<label for="positionname">İçliyin №</label>
+																							<input type="number" class="form-control" id="positionname">
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="card-footer">Xanaları boş buraxmayın</div>
+																		</div>
+																		<a href="" class="btn btn-block btn-success">Əlave et</a>
+																	</div>
+																	<!-- /.modal-content -->
+																</div>
+																<!-- /.modal-dialog -->
+															</div>
+															<!-- /.modal -->
+														</div>
+														<div class="tab-pane fade" id="custom-tabs-four-documents" role="tabpanel" aria-labelledby="custom-tabs-four-documents-tab">
+															<div class="row">
+																<div class="col-md-6">
+																	<table style="margin-top:10px;" id="datatables-column-search-text-inputs" class="table table-bordered table-striped example1">
+																		<thead>
+																			<tr>
+																				<th>Tarix</th>
+																				<th>Sənəd növü</th>
+																				<th>Sənəd adı</th>
+																				<th></th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr>
+																				<td>20.11.2019</td>
+																				<td>bakalavr diplomu</td>
+																				<td>bakalavr diplomu</td>
+																				<td>
+																					<a class="btn btn-info"><i class="fas fa-eye"></i></a>
+																					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg-work"><i class="fas fa-edit"></i></a>
+																					<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>20.11.2019</td>
+																				<td>Sertifikat</td>
+																				<td>mühəndis proqramlaşdırıcı</td>
+																				<td>
+																					<a class="btn btn-info"><i class="fas fa-eye"></i></a>
+																					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg-work"><i class="fas fa-edit"></i></a>
+																					<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>20.11.2019</td>
+																				<td>Sertifikat</td>
+																				<td>mühəndis proqramlaşdırıcı</td>
+																				<td>
+																					<a class="btn btn-info"><i class="fas fa-eye"></i></a>
+																					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg-work"><i class="fas fa-edit"></i></a>
+																					<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+																<!-- /.modal -->
+																<div class="col-md-6">
+																	<div class="card card-default">
+																		<div class="card-body">
+																			<div class="row">
+																				<div class="col-md-4">
+																					<div class="form-group">
+																						<label>İşə Qəbul Tarixi</label>
+																						<div class="input-group date" id="fileadddate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#fileadddate"/>
+																							<div class="input-group-append" data-target="#fileadddate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="col-md-4">
+																					<div class="form-group">
+																						<label for="companyname">Sənəd növü</label>
+																						<input type="text" class="form-control" id="companyname" placeholder="Sənəd növü">
+																					</div>
+																				</div>
+																				<div class="col-md-4">
+																					<div class="form-group">
+																						<label for="structurname">Sənəd adı	</label>
+																						<input type="text" class="form-control" id="structurname" placeholder="Sənəd adı	">
+																					</div>
+																				</div>
+																				<div class="col-md-4">
+																					<div class="form-group">
+																						<label for="positionname">Sənəd yüklə</label>
+																						<input type="file" class="form-control" id="positionname">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="tab-pane fade" id="custom-tabs-four-reward-reprimand" role="tabpanel" aria-labelledby="custom-tabs-four-reward-reprimand-tab">
+															<div class="row">
+																<div class="col-md-12">
+																	<div class="card card-default">
+																		<div class="card-body">
+																			<div class="row">
+																				<div class="col-md-3">
+																					<div class="form-group">
+																						<label for="companyname">Əmrin Nömrəsi</label>
+																						<input type="text" class="form-control" id="companyname" placeholder="Əmrin Nömrəsi">
+																					</div>
+																				</div>
+																				<div class="col-md-3">
+																					<div class="form-group">
+																						<label>Əmrin Tarixi</label>
+																						<div class="input-group date" id="fileadddate" data-target-input="nearest">
+																							<input type="text" class="form-control datetimepicker-input" data-target="#fileadddate"/>
+																							<div class="input-group-append" data-target="#fileadddate" data-toggle="datetimepicker">
+																								<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="col-md-3">
+																					<div class="form-group">
+																						<label for="structurname">Növü</label>
+																						<input type="text" class="form-control" id="structurname" placeholder="Növü">
+																					</div>
+																				</div>
+																				<div class="col-md-3">
+																					<div class="form-group">
+																						<label for="positionname">Açıqlama</label>
+																						<input type="text" class="form-control" id="structurname" placeholder="Açıqlama">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-md-12">
+																	<table style="margin-top:10px;" id="datatables-column-search-text-inputs" class="table table-bordered table-striped example1">
+																		<thead>
+																			<tr>
+																				<th>Əmrin Nömrəsi</th>
+																				<th>Əmrin Tarixi</th>
+																				<th>Növü</th>
+																				<th>Açıqlama</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr>
+																				<td>T13165</td>
+																				<td>20.11.2019</td>
+																				<td>Təşəkkür</td>
+																				<td>
+																					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg-work"><i class="fas fa-edit"></i></a>
+																					<a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+														<div class="tab-pane fade" id="custom-tabs-four-military-service" role="tabpanel" aria-labelledby="custom-tabs-four-military-service-tab">
+															<div class="col-md-12">
+																<div class="card">
+																	<!-- /.card-header -->
+																	<div class="card-body">
+																		<div class="form-group row">
+																			<label class="col-sm-4 col-form-label">Hərbi Mükəlləfiyyəti</label>
+																			<div class="col-sm-8">
+																				<div class="form-group clearfix">
+																					<div class="icheck-primary d-inline mr-4">
+																						<input type="radio" id="radioPrimary5" name="r1" checked />
+																						<label for="radioPrimary5">Var</label>
+																					</div>
+																					<div class="icheck-primary d-inline">
+																						<input type="radio" id="radioPrimary6" name="r1" />
+																						<label for="radioPrimary6">Yox</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="form-group row">
+																			<label for="inputName" class="col-sm-4 col-form-label">Hərbi Vəziyyəti</label>
+																			<div class="col-sm-8">
+																				<input type="text" class="form-control" id="inputName" placeholder="Hərbi Vəziyyəti" />
+																			</div>
+																		</div>
+																		<div class="form-group row">
+																			<label for="inputSurname" class="col-sm-4 col-form-label">Hərbi Biletin Nömrəsi</label>
+																			<div class="col-sm-8">
+																				<input type="text" class="form-control" id="inputSurname" placeholder="Hərbi Biletin Nömrəsi" />
+																			</div>
+																		</div>
+																		<div class="form-group row">
+																			<label for="PlaceBirth" class="col-sm-4 col-form-label">Hərbi Komissarlığı</label>
+																			<div class="col-sm-8">
+																				<input type="text" class="form-control" id="PlaceBirth" placeholder="Hərbi Komissarlığı" />
+																			</div>
+																		</div>
+																		<div class="form-group row">
+																			<label for="inputFname" class="col-sm-4 col-form-label">Başlama Tarixi</label>
+																			<div class="col-sm-8">
+																				<div class="input-group date" id="armystartdate" data-target-input="nearest">
+																					<input type="text" class="form-control datetimepicker-input" data-target="#armystartdate"/>
+																					<div class="input-group-append" data-target="#armystartdate" data-toggle="datetimepicker">
+																						<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="form-group row">
+																			<label for="inputFname" class="col-sm-4 col-form-label">Bitmə Tarixi</label>
+																			<div class="col-sm-8">
+																				<div class="input-group date" id="armyenddate" data-target-input="nearest">
+																					<input type="text" class="form-control datetimepicker-input" data-target="#armyenddate"/>
+																					<div class="input-group-append" data-target="#armyenddate" data-toggle="datetimepicker">
+																						<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<!-- /.card-body -->
+																</div>
+																<!-- /.card -->
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- /.card -->
+											</div>
+										</div>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <b>Copyright &copy; 2022 <a href="">AzərEnerji ASC</a>
+            </footer>
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
+        </div>
+        <!-- ./wrapper -->
+		
+		<script src="plugins/jquery/jquery.min.js"></script>
+        <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="plugins/select2/js/select2.full.min.js"></script>
+        <script src="plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+        <script src="plugins/moment/moment.min.js"></script>
+        <script src="plugins/inputmask/jquery.inputmask.min.js"></script>
+        <script src="plugins/daterangepicker/daterangepicker.js"></script>
+        <script src="plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+        <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+        <script src="plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+        <script src="plugins/bs-stepper/js/bs-stepper.min.js"></script>
+        <script src="plugins/dropzone/min/dropzone.min.js"></script>
+        <script src="dist/js/adminlte.min.js"></script>
+        <script src="dist/js/demo.js"></script>
+        <!-- Page specific script -->
+		<script>
+			$(document).ready(function()
+			{
+			
+				$("#check_all").click(function()				
+				{
+					var checked_status = this.checked;
+					$("input[name=regis]").each(function()
+					{
+						this.checked = checked_status;
+					});
+				});					
+			});
+		
+		
+		</script>
+        <script>
+            $(function () {
+                //Initialize Select2 Elements
+                $(".select2").select2();
+
+                //Initialize Select2 Elements
+                $(".select2bs4").select2({
+                    theme: "bootstrap4",
+                });
+
+                //Datemask dd/mm/yyyy
+                $("#datemask").inputmask("dd/mm/yyyy", { placeholder: "dd/mm/yyyy" });
+                //Datemask2 mm/dd/yyyy
+                $("#datemask2").inputmask("mm/dd/yyyy", { placeholder: "mm/dd/yyyy" });
+                //Money Euro
+                $("[data-mask]").inputmask();
+
+                //Date picker
+                $("#reservationdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#cardstartdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#cardenddate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#employmentdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#expirationtdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#recruitmentdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#dismissaldate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#edustartdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#eduenddate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#recruitmentdateadd").datetimepicker({
+                    format: "L",
+                });
+
+                $("#dateofdismissal").datetimepicker({
+                    format: "L",
+                });
+
+                $("#fillingdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#fileadddate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#armystartdate").datetimepicker({
+                    format: "L",
+                });
+
+                $("#armyenddate").datetimepicker({
+                    format: "L",
+                });
+
+                //Date and time picker
+                $("#reservationdatetime").datetimepicker({ icons: { time: "far fa-clock" } });
+
+                //Date range picker
+                $("#reservation").daterangepicker();
+                //Date range picker with time picker
+                $("#reservationtime").daterangepicker({
+                    timePicker: true,
+                    timePickerIncrement: 30,
+                    locale: {
+                        format: "MM/DD/YYYY hh:mm A",
+                    },
+                });
+                //Date range as a button
+                $("#daterange-btn").daterangepicker(
+                    {
+                        ranges: {
+                            Today: [moment(), moment()],
+                            Yesterday: [moment().subtract(1, "days"), moment().subtract(1, "days")],
+                            "Last 7 Days": [moment().subtract(6, "days"), moment()],
+                            "Last 30 Days": [moment().subtract(29, "days"), moment()],
+                            "This Month": [moment().startOf("month"), moment().endOf("month")],
+                            "Last Month": [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")],
+                        },
+                        startDate: moment().subtract(29, "days"),
+                        endDate: moment(),
+                    },
+                    function (start, end) {
+                        $("#reportrange span").html(start.format("MMMM D, YYYY") + " - " + end.format("MMMM D, YYYY"));
+                    }
+                );
+
+                //Timepicker
+                $("#timepicker").datetimepicker({
+                    format: "LT",
+                });
+
+                //Bootstrap Duallistbox
+                $(".duallistbox").bootstrapDualListbox();
+
+                //Colorpicker
+                $(".my-colorpicker1").colorpicker();
+                //color picker with addon
+                $(".my-colorpicker2").colorpicker();
+
+                $(".my-colorpicker2").on("colorpickerChange", function (event) {
+                    $(".my-colorpicker2 .fa-square").css("color", event.color.toString());
+                });
+
+                $("input[data-bootstrap-switch]").each(function () {
+                    $(this).bootstrapSwitch("state", $(this).prop("checked"));
+                });
+            });
+            // BS-Stepper Init
+            document.addEventListener("DOMContentLoaded", function () {
+                window.stepper = new Stepper(document.querySelector(".bs-stepper"));
+            });
+
+            // DropzoneJS Demo Code Start
+            Dropzone.autoDiscover = false;
+
+            // Get the template HTML and remove it from the doumenthe template HTML and remove it from the doument
+            var previewNode = document.querySelector("#template");
+            previewNode.id = "";
+            var previewTemplate = previewNode.parentNode.innerHTML;
+            previewNode.parentNode.removeChild(previewNode);
+
+            var myDropzone = new Dropzone(document.body, {
+                // Make the whole body a dropzone
+                url: "/target-url", // Set the url
+                thumbnailWidth: 80,
+                thumbnailHeight: 80,
+                parallelUploads: 20,
+                previewTemplate: previewTemplate,
+                autoQueue: false, // Make sure the files aren't queued until manually added
+                previewsContainer: "#previews", // Define the container to display the previews
+                clickable: ".fileinput-button", // Define the element that should be used as click trigger to select files.
+            });
+
+            myDropzone.on("addedfile", function (file) {
+                // Hookup the start button
+                file.previewElement.querySelector(".start").onclick = function () {
+                    myDropzone.enqueueFile(file);
+                };
+            });
+
+            // Update the total progress bar
+            myDropzone.on("totaluploadprogress", function (progress) {
+                document.querySelector("#total-progress .progress-bar").style.width = progress + "%";
+            });
+
+            myDropzone.on("sending", function (file) {
+                // Show the total progress bar when upload starts
+                document.querySelector("#total-progress").style.opacity = "1";
+                // And disable the start button
+                file.previewElement.querySelector(".start").setAttribute("disabled", "disabled");
+            });
+
+            // Hide the total progress bar when nothing's uploading anymore
+            myDropzone.on("queuecomplete", function (progress) {
+                document.querySelector("#total-progress").style.opacity = "0";
+            });
+
+            // Setup the buttons for all transfers
+            // The "add files" button doesn't need to be setup because the config
+            // `clickable` has already been specified.
+            document.querySelector("#actions .start").onclick = function () {
+                myDropzone.enqueueFiles(myDropzone.getFilesWithStatus(Dropzone.ADDED));
+            };
+            document.querySelector("#actions .cancel").onclick = function () {
+                myDropzone.removeAllFiles(true);
+            };
+            // DropzoneJS Demo Code End
+        </script>
+		<script>
+            // DataTables with Column Search by Text Inputs
+            document.addEventListener("DOMContentLoaded", function () {
+                // Setup - add a text input to each footer cell
+                $("#datatables-column-search-text-inputs tfoot th").each(function () {
+                    var title = $(this).text();
+                    $(this).html('<input type="text" class="form-control" placeholder="' + title + ' axtar" />');
+                });
+                // DataTables
+                var table = $("#datatables-column-search-text-inputs").DataTable();
+                // Apply the search
+                table.columns().every(function () {
+                    var that = this;
+                    $("input", this.footer()).on("keyup change clear", function () {
+                        if (that.search() !== this.value) {
+                            that.search(this.value).draw();
+                        }
+                    });
+                });
+            });
+            // DataTables with Column Search by Select Inputs
+
+			function nWin() {
+			  var w = window.print();
+			  var html = $("#myDiv").html();
+
+				$(w.document.body).html(html);
+				w.print();
+			}
+
+			$(function() {
+				$("a#print").click(nWin);
+			});
+		</script>
+    </body>
+
+    <!-- Mirrored from adminlte.io/themes/v3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Nov 2021 07:15:58 GMT -->
+</html>

@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Mirrored from adminlte.io/themes/v3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Nov 2021 07:15:52 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Azərenerji ASC</title>
+
+        <!-- Google Font: Source Sans Pro -->
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+        <!-- daterange picker -->
+        <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css" />
+        <!-- iCheck for checkboxes and radio inputs -->
+        <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css" />
+        <!-- Bootstrap Color Picker -->
+        <link rel="stylesheet" href="plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" />
+        <!-- Tempusdominus Bootstrap 4 -->
+        <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" />
+        <!-- Select2 -->
+        <link rel="stylesheet" href="plugins/select2/css/select2.min.css" />
+        <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" />
+        <!-- Bootstrap4 Duallistbox -->
+        <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css" />
+        <!-- BS Stepper -->
+        <link rel="stylesheet" href="plugins/bs-stepper/css/bs-stepper.min.css" />
+        <!-- dropzonejs -->
+        <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css" />
+        <!-- Theme style -->
+        <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+		 <!-- DataTables -->
+        <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" />
+        <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css" />
+        <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css" />
+    </head>
+	
+    <body class="hold-transition sidebar-mini layout-fixed">
+        <div class="wrapper">
+            <!-- Preloader -->
+            <div class="preloader flex-column justify-content-center align-items-center">
+                <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60" />
+            </div>
+
+            <!-- Navbar -->
+            <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+                <!-- Left navbar links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                    </li>
+                </ul>
+
+                <!-- Right navbar links -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- Notifications Dropdown Menu -->
+					<li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">İlqar Əzizov</a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-users mr-2"></i>İstifadəçi məlumatları
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-sign-out-alt mr-2"></i>Təhlükəsiz çıxış
+                            </a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                            <i class="fas fa-th-large"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.navbar -->
+
+            <!-- Main Sidebar Container -->
+            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                <!-- Brand Logo -->
+                <a href="index.html" class="brand-link">
+                    <img src="dist/img/AdminLTELogo.png"  class="brand-image " />
+                    <span class="brand-text font-weight-light"><b>AzərEnerji ASC</b></span>
+                </a>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+
+                    <!-- Sidebar Menu -->
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+							<li class="nav-item menu-open">
+                                <a class="nav-link active">
+									<i class="nav-icon fas fa-users"></i>
+                                    <p>
+                                        İnsan Resursları
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="personalinfo.html" class="nav-link active">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Personal məlumatları</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+							<li class="nav-item">
+                                <a class="nav-link">
+									<i class="nav-icon fas fa-users"></i>
+                                    <p>
+                                        İdarə Etmə Paneli
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="controlpanel.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Struktur</p>
+                                        </a>
+                                    </li>
+                                </ul>
+								<ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="positions.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Vəzifələr</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+							
+							
+                            
+							
+							
+							
+                            
+
+                        </ul>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <div class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb float-sm-left">
+                                    <li class="breadcrumb-item"><a href="#">İnsan Resursları</a></li>
+                                    <li class="breadcrumb-item active">Personal məlumatları</li>
+                                </ol>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb float-sm-right">
+									<li class="breadcrumb-item">06 iyun 2022 / 14:40:25</li>
+                                </ol>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+                <!-- /.content-header -->
+
+                <!-- Main content -->
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- /.card -->
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-primary" onclick="printPage()">Print</button>
+										<a href="newpersonal.html" class="btn btn-app bg-success">
+											<span class="badge bg-purple">891</span>
+											<i class="fas fa-users"></i>Yeni kadr
+										</a>
+										<a href="" class="btn btn-app bg-danger">
+											<i class="fas fa-trash"></i>Sil
+										</a>
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body" id="myDiv">
+                                        <table id="datatables-column-search-text-inputs" class="table table-bordered table-striped example1">
+                                            <thead>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" value="" id="check_all">
+															<label for="check_all" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <th></th>
+                                                    <th>Adı</th>
+                                                    <th>Soyadı</th>
+                                                    <th>Ata adı</th>
+                                                    <th>Təşkilatın adı</th>
+                                                    <th>Struktur bölmə</th>
+                                                    <th>Vəzifə</th>
+                                                    <th>CV Çapı</th>
+                                                </tr>
+                                            </thead>
+											<tfoot style="display:table-header-group !important;">
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <th>Adı</th>
+                                                    <th>Soyadı</th>
+                                                    <th>Ata adı</th>
+                                                    <th>Təşkilatın adı</th>
+                                                    <th>Struktur bölmə</th>
+                                                    <th>Vəzifə</th>
+                                                    <td></td>
+                                                </tr>
+                                            </tfoot>
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="2">
+															<label for="2" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>İlqar</td>
+                                                    <td>Əzizov</td>
+                                                    <td>Məlik</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Rəqəmsal Texnologiyalar Departamenti</td>
+                                                    <td>Aparıcı veb proqramçı</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="3">
+															<label for="3" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Zeynal</td>
+                                                    <td>Zeynalov</td>
+                                                    <td>Mirzəbala</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Mərkəzi Dispetçer İdarəsi</td>
+                                                    <td>böyük dispetçer</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="4">
+															<label for="4" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Mirzağa</td>
+                                                    <td>Abdullayev</td>
+                                                    <td>Əliabas</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Nəzarət İdarəsi</td>
+                                                    <td>aparıcı mütəxəssis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="5">
+															<label for="5" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Zəminə</td>
+                                                    <td>Ağayeva</td>
+                                                    <td>İsaq</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Texniki istehsalat idarəsi</td>
+                                                    <td>texnik</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="6">
+															<label for="6" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Qəzənfər</td>
+                                                    <td>Ramazanov</td>
+                                                    <td>Çopan</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Rele mühafizəsi və avtomatika xidməti</td>
+                                                    <td>xidmət rəisi</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="7">
+															<label for="7" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Vlada</td>
+                                                    <td>Suprun</td>
+                                                    <td>Viktorovna</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Xarici İqtisadi Əlaqələr idarəsi</td>
+                                                    <td>aparıcı mütəxəssis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="8">
+															<label for="8" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Anar</td>
+                                                    <td>Qasımzadə</td>
+                                                    <td>Xasay</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Bazar Operatoru</td>
+                                                    <td>baş mütəxəssis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="9">
+															<label for="9" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Məryəm</td>
+                                                    <td>Məmmədova</td>
+                                                    <td>Novruz</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Prezidentin müşavir, köməkçi və protokol xidməti</td>
+                                                    <td>aparıcı mütəxəssis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="10">
+															<label for="10" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Sədaqət</td>
+                                                    <td>Haqverdiyeva</td>
+                                                    <td>Süleyman</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Vitse-prezidentin xidməti</td>
+                                                    <td>mütəxəssis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="11">
+															<label for="11" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Əntiqə</td>
+                                                    <td>Əliyeva</td>
+                                                    <td>Adil</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>İnsan resursları və Xidmət Departamenti</td>
+                                                    <td>mütəxəssis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="12">
+															<label for="12" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Nubar</td>
+                                                    <td>Əliyeva</td>
+                                                    <td>Buşrah</td>
+                                                    <td>"Azərenerjikomplektləşdirmə" MMC</td>
+                                                    <td>Təsərrüfat şöbəsi</td>
+                                                    <td>xidmətçi</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="13">
+															<label for="13" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Oqtay</td>
+                                                    <td>Orucov</td>
+                                                    <td>Əmir</td>
+                                                    <td>"Azərenerjikomplektləşdirmə" MMC</td>
+                                                    <td>Avtonəqliyyat idarəsi</td>
+                                                    <td>fəhlə</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="14">
+															<label for="14" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Aybəniz</td>
+                                                    <td>Əhmədova</td>
+                                                    <td>Arif</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>İctimaiyyətlə əlaqələr və media mərkəzi</td>
+                                                    <td>məsul katib</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="15">
+															<label for="15" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Ələkbər</td>
+                                                    <td>Baxşəliyev</td>
+                                                    <td>Əli</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Perspektiv inkişaf və İnvestisiya İdarəsi</td>
+                                                    <td>şöbə rəisinin müavini</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="16">
+															<label for="16" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Vüqar</td>
+                                                    <td>Dadaşov</td>
+                                                    <td>Mobir</td>
+                                                    <td>"Abşeron Regional Elektrik Şəbəkəsi" MMC</td>
+                                                    <td>Böyük Şor şəbəkə sahəsi 220 kV "Böyük Şor" YS</td>
+                                                    <td>növbətçi mühəndis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="17">
+															<label for="17" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Yeganə</td>
+                                                    <td>İsmayılova</td>
+                                                    <td>Arif</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Enerjinin İstehsalı Operatoru</td>
+                                                    <td>mühəndis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="18">
+															<label for="18" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Tahirə</td>
+                                                    <td>Əbiyeva</td>
+                                                    <td>Abbasəli</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Maliyyə Departamenti</td>
+                                                    <td>idarə rəisinin müavini</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="19">
+															<label for="19" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Sevda</td>
+                                                    <td>Talıbova</td>
+                                                    <td>Tofiq</td>
+                                                    <td>"Azərbaycan Elmi Tədqiqat və Layihə Axtarış Energetika İnstitutu" MMC</td>
+                                                    <td>Ümumi şöbə</td>
+                                                    <td>aparıcı mühəndis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="20">
+															<label for="20" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Yavər</td>
+                                                    <td>Ocaqov</td>
+                                                    <td>Hüseyn</td>
+                                                    <td>"Bakı Elektrik Stansiyası" MMC</td>
+                                                    <td>Elektrik sexi</td>
+                                                    <td>elektrik montyoru</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="21">
+															<label for="21" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Gülnarə</td>
+                                                    <td>Əlişzadə</td>
+                                                    <td>Əliş</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Ötürücü Sistem Operatoru</td>
+                                                    <td>aparıcı mühəndis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="22">
+															<label for="22" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Əhməd</td>
+                                                    <td>Musayev</td>
+                                                    <td>Paşa</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Ötürücü Sistem Operatoru</td>
+                                                    <td>Rəis müavini</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="23">
+															<label for="23" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>İbrahim</td>
+                                                    <td>Məmmədov</td>
+                                                    <td>Maarif</td>
+                                                    <td>"Qobu Elektrik Stansiyası" MMC</td>
+                                                    <td>İdarə heyəti</td>
+                                                    <td>direktor</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="24">
+															<label for="24" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Səbinə</td>
+                                                    <td>Əliyeva</td>
+                                                    <td>Əliyəddin</td>
+                                                    <td>"Azərbaycan Elmi Tədqiqat və Layihə Axtarış Energetika İnstitutu" MMC</td>
+                                                    <td>Laboratoriya Mərkəzi</td>
+                                                    <td>direktor</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="25">
+															<label for="25" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Asəf</td>
+                                                    <td>Quliyev</td>
+                                                    <td>İslam</td>
+                                                    <td>"Sumqayıt YGEŞ" MMC</td>
+                                                    <td>Xırdalan EŞ</td>
+                                                    <td>növbətçi mühəndis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="26">
+															<label for="26" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Osman</td>
+                                                    <td>İlyasov</td>
+                                                    <td>Vəli</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Rəhbərlik</td>
+                                                    <td>Baş mühəndis</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="27">
+															<label for="27" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Rəna</td>
+                                                    <td>Babayeva</td>
+                                                    <td>Mais</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>İzolyasiya və Test Sınağı xidməti</td>
+                                                    <td>texnik</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+														<div class="custom-control custom-checkbox">
+															<input class="custom-control-input custom-control-input-danger" type="checkbox" name="regis" value="77" id="28">
+															<label for="28" class="custom-control-label"></label>
+														</div>
+													</th>
+                                                    <td><a href="personalmore.html" class="btn btn-info"><i class="fas fa-eye"></i></a></td>
+                                                    <td>Bəhruz</td>
+                                                    <td>Məmmədov</td>
+                                                    <td>Mirhəmzə</td>
+                                                    <td>"Azərenerji" Açıq Səhmdar Cəmiyyəti</td>
+                                                    <td>Idarə aparatı</td>
+                                                    <td>Baş mühəndisin müavini</td>
+                                                    <td><a href="cvprint.html" class="btn btn-default"><i class="fas fa-print"></i> CV</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <strong>Copyright &copy; 2022 <a href="">AzərEnerji ASC</a>
+            </footer>
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
+        </div>
+        <!-- ./wrapper -->
+		
+		<script src="plugins/jquery/jquery.min.js"></script>
+        <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+        <script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+        <script src="plugins/jszip/jszip.min.js"></script>
+        <script src="plugins/pdfmake/pdfmake.min.js"></script>
+        <script src="plugins/pdfmake/vfs_fonts.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
+        <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+        <script src="dist/js/adminlte.min.js"></script>
+        <script src="dist/js/demo.js"></script>
+		
+		<script>
+			$(document).ready(function()
+			{
+			
+				$("#check_all").click(function()				
+				{
+					var checked_status = this.checked;
+					$("input[name=regis]").each(function()
+					{
+						this.checked = checked_status;
+					});
+				});					
+			});
+		
+		
+		</script>
+        <script>
+            $(function () {
+                //Initialize Select2 Elements
+                $(".select2").select2();
+
+                //Initialize Select2 Elements
+                $(".select2bs4").select2({
+                    theme: "bootstrap4",
+                });
+
+                //Datemask dd/mm/yyyy
+                $("#datemask").inputmask("dd/mm/yyyy", { placeholder: "dd/mm/yyyy" });
+                //Datemask2 mm/dd/yyyy
+                $("#datemask2").inputmask("mm/dd/yyyy", { placeholder: "mm/dd/yyyy" });
+                //Money Euro
+                $("[data-mask]").inputmask();
+
+                //Date picker
+                $("#reservationdate").datetimepicker({
+                    format: "L",
+                });
+
+                //Date and time picker
+                $("#reservationdatetime").datetimepicker({ icons: { time: "far fa-clock" } });
+
+                //Date range picker
+                $("#reservation").daterangepicker();
+                //Date range picker with time picker
+                $("#reservationtime").daterangepicker({
+                    timePicker: true,
+                    timePickerIncrement: 30,
+                    locale: {
+                        format: "MM/DD/YYYY hh:mm A",
+                    },
+                });
+                //Date range as a button
+                $("#daterange-btn").daterangepicker(
+                    {
+                        ranges: {
+                            Today: [moment(), moment()],
+                            Yesterday: [moment().subtract(1, "days"), moment().subtract(1, "days")],
+                            "Last 7 Days": [moment().subtract(6, "days"), moment()],
+                            "Last 30 Days": [moment().subtract(29, "days"), moment()],
+                            "This Month": [moment().startOf("month"), moment().endOf("month")],
+                            "Last Month": [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")],
+                        },
+                        startDate: moment().subtract(29, "days"),
+                        endDate: moment(),
+                    },
+                    function (start, end) {
+                        $("#reportrange span").html(start.format("MMMM D, YYYY") + " - " + end.format("MMMM D, YYYY"));
+                    }
+                );
+
+                //Timepicker
+                $("#timepicker").datetimepicker({
+                    format: "LT",
+                });
+
+                //Bootstrap Duallistbox
+                $(".duallistbox").bootstrapDualListbox();
+
+                //Colorpicker
+                $(".my-colorpicker1").colorpicker();
+                //color picker with addon
+                $(".my-colorpicker2").colorpicker();
+
+                $(".my-colorpicker2").on("colorpickerChange", function (event) {
+                    $(".my-colorpicker2 .fa-square").css("color", event.color.toString());
+                });
+
+                $("input[data-bootstrap-switch]").each(function () {
+                    $(this).bootstrapSwitch("state", $(this).prop("checked"));
+                });
+            });
+            // BS-Stepper Init
+            document.addEventListener("DOMContentLoaded", function () {
+                window.stepper = new Stepper(document.querySelector(".bs-stepper"));
+            });
+
+            // DropzoneJS Demo Code Start
+            Dropzone.autoDiscover = false;
+
+            // Get the template HTML and remove it from the doumenthe template HTML and remove it from the doument
+            var previewNode = document.querySelector("#template");
+            previewNode.id = "";
+            var previewTemplate = previewNode.parentNode.innerHTML;
+            previewNode.parentNode.removeChild(previewNode);
+
+            var myDropzone = new Dropzone(document.body, {
+                // Make the whole body a dropzone
+                url: "/target-url", // Set the url
+                thumbnailWidth: 80,
+                thumbnailHeight: 80,
+                parallelUploads: 20,
+                previewTemplate: previewTemplate,
+                autoQueue: false, // Make sure the files aren't queued until manually added
+                previewsContainer: "#previews", // Define the container to display the previews
+                clickable: ".fileinput-button", // Define the element that should be used as click trigger to select files.
+            });
+
+            myDropzone.on("addedfile", function (file) {
+                // Hookup the start button
+                file.previewElement.querySelector(".start").onclick = function () {
+                    myDropzone.enqueueFile(file);
+                };
+            });
+
+            // Update the total progress bar
+            myDropzone.on("totaluploadprogress", function (progress) {
+                document.querySelector("#total-progress .progress-bar").style.width = progress + "%";
+            });
+
+            myDropzone.on("sending", function (file) {
+                // Show the total progress bar when upload starts
+                document.querySelector("#total-progress").style.opacity = "1";
+                // And disable the start button
+                file.previewElement.querySelector(".start").setAttribute("disabled", "disabled");
+            });
+
+            // Hide the total progress bar when nothing's uploading anymore
+            myDropzone.on("queuecomplete", function (progress) {
+                document.querySelector("#total-progress").style.opacity = "0";
+            });
+
+            // Setup the buttons for all transfers
+            // The "add files" button doesn't need to be setup because the config
+            // `clickable` has already been specified.
+            document.querySelector("#actions .start").onclick = function () {
+                myDropzone.enqueueFiles(myDropzone.getFilesWithStatus(Dropzone.ADDED));
+            };
+            document.querySelector("#actions .cancel").onclick = function () {
+                myDropzone.removeAllFiles(true);
+            };
+            // DropzoneJS Demo Code End
+        </script>
+		<script>
+            // DataTables with Column Search by Text Inputs
+            document.addEventListener("DOMContentLoaded", function () {
+                // Setup - add a text input to each footer cell
+                $("#datatables-column-search-text-inputs tfoot th").each(function () {
+                    var title = $(this).text();
+                    $(this).html('<input type="text" class="form-control" placeholder="' + title + ' axtar" />');
+                });
+                // DataTables
+                var table = $("#datatables-column-search-text-inputs").DataTable();
+                // Apply the search
+                table.columns().every(function () {
+                    var that = this;
+                    $("input", this.footer()).on("keyup change clear", function () {
+                        if (that.search() !== this.value) {
+                            that.search(this.value).draw();
+                        }
+                    });
+                });
+            });
+            // DataTables with Column Search by Select Inputs
+        </script>
+		<script>
+            // Add your javascript here
+			function printPage() {
+			  var mywindow = window.open('', 'title', 'height=400width=600');
+			  var strPrint = '';
+			  strPrint += '<html>';
+			  strPrint += '<link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css" />';
+			  strPrint += '</head><body>';
+			  strPrint += '<h1>Test</h1>';
+			  strPrint += document.getElementById('myDiv').innerHTML;
+			  strPrint += '</body></html>';
+
+			  // Print the document
+			  mywindow.document.write(strPrint);
+
+			  mywindow.print();
+			  //mywindow.close();
+			}
+        </script>
+		
+    </body>
+
+    <!-- Mirrored from adminlte.io/themes/v3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Nov 2021 07:15:58 GMT -->
+</html>
